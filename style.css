@@ -1,0 +1,13 @@
+*{
+    font-family: monospace !important;
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+}
+body {
+    background-color:#000000;
+    color: chartreuse;
+}
+.container {
+    padding: 50px;
+}
