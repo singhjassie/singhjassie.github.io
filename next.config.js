@@ -16,8 +16,6 @@ module.exports = withPlugins([
   ],
   {
     trailingSlash: true,
-    basePath: '/website-deploy', // Configure base path if using GitHub Pages
-    assetPrefix: '/website-deploy/',
   },
   {
     webpack: config => {
