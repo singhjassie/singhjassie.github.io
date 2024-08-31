@@ -97,7 +97,7 @@ const Footer = () => {
               <Typography className={classes.logoSubTitle} variant="body1Semi" paragraph>
               Empowering Cybersecurity Through Innovation.
               </Typography>
-              <PButton variant="contained" gradient to="/download">
+              <PButton variant="contained" gradient to="/#">
               Download My Resume
               </PButton>
             </Grid>
@@ -115,7 +115,7 @@ const Footer = () => {
                 <Typography className={classes.title} variant="h6" paragraph>
                   Explore
                 </Typography>
-                <Link className={classes.link} color="textSecondary" href="/">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Home
                 </Link>
                 <Link
@@ -128,17 +128,17 @@ const Footer = () => {
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="/download?version=hackthebox"
+                  href="/#"
                 >
                   Certifications
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/blog">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Blogs
                 </Link>
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="/download?version=architect"
+                  href="/#"
                 >
                   Tutorials
                 </Link>
@@ -156,19 +156,19 @@ const Footer = () => {
                 <Typography className={classes.title} variant="h6" paragraph>
                   Learning Resources
                 </Typography>
-                <Link className={classes.link} color="textSecondary" href="/docs">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Programming
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/contribute">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Operating System
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/community">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Computer Networks
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/blog">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Ethical Hacking
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/blog">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Training Labs
                 </Link>
               </Grid>
@@ -185,19 +185,19 @@ const Footer = () => {
                 <Typography className={classes.title} variant="h6" paragraph>
                   About Me
                 </Typography>
-                <Link className={classes.link} color="textSecondary" href="/team">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Experience
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/partners">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Education
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/donate">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Skills
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/donate">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Career Goals
                 </Link>
-                <Link className={classes.link} color="textSecondary" href="/donate">
+                <Link className={classes.link} color="textSecondary" href="/#">
                   Achievements
                 </Link>
               </Grid>
@@ -217,35 +217,35 @@ const Footer = () => {
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="https://www.facebook.com/ParrotSec/"
+                  href="#"
                 >
                   LinkedIn
                 </Link>
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="https://www.facebook.com/ParrotSec/"
+                  href="#"
                 >
                   Github
                 </Link>
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="https://twitter.com/parrotsec"
+                  href="#"
                 >
                   Twitter
                 </Link>
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="https://www.instagram.com/parrotproject/"
+                  href="#"
                 >
                   Instagram
                 </Link>
                 <Link
                   className={classes.link}
                   color="textSecondary"
-                  href="https://discord.gg/j7QTaCzAsm"
+                  href="#"
                 >
                   Discord
                 </Link>

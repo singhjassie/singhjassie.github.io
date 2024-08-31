@@ -137,12 +137,12 @@ const WelcomeSection = () => {
           sm={6}
           justifyContent="flex-end"
         >
-          <PButton variant="contained" to="/download" gradient>
+          <PButton variant="contained" to="#" gradient>
             Download Resume
           </PButton>
         </Grid>
         <Grid className={classes.responsiveJustify} container item xs={12} sm={6}>
-          <PButton variant="outlined" to="https://parrotsec.org/docs/introduction/what-is-parrot">
+          <PButton variant="outlined" to="#">
             Contact Me
           </PButton>
         </Grid>
@@ -150,7 +150,7 @@ const WelcomeSection = () => {
       <PButton
         className={classes.wideButton}
         variant="outlined"
-        to="/blog/2022-09-24-parrot-5.1-release-notes"
+        to="#"
         startIcon={<SvgIcon className={classes.bulb} component={Bulb} />}
       >
         Read More About Me

@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material'
+import { Grid, Typography } from '@mui/material'
 import { makeStyles } from '@mui/styles'
 import { NextPage } from 'next'
 import dynamic from 'next/dynamic'
@@ -73,14 +73,17 @@ const Index: NextPage = () => {
     <Grid container className={classes.root} justifyContent="center">
       <WelcomeSection />
       <ToolsSection className={classes.toolsBlock} />
-      <TrustSection className={classes.trustBlock} />
+      <Typography mt={4} variant="subtitle2Semi" align="center" paragraph color={"orange"}>
+        Website is under development. All projects, Certifications and other details are not added yet!
+      </Typography>
+      {/* <TrustSection className={classes.trustBlock} />
       <FeaturesSection className={classes.features} />
       <HackToolsSection />
       <DevelopingSection />
       <StatsSection className={classes.statsBlock} />
       <OSSection />
       <HTBSection className={classes.htbBlock} />
-      <ContributeSection className={classes.developBlock} />
+      <ContributeSection className={classes.developBlock} /> */}
       {/*<NewsletterSection className={classes.newsletterBlock} />*/}
     </Grid>
   )

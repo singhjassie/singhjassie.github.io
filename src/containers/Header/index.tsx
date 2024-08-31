@@ -98,7 +98,7 @@ const Header = () => {
             justifyContent="space-between"
           >
             <div className={classes.logoHolder}>
-              <Link href="/">
+              <Link href="/#">
                 <div>
                   <Logo className={classes.logo} />
                 </div>
@@ -116,25 +116,25 @@ const Header = () => {
             </Hidden>
             <Hidden lgDown>
               <nav className={classes.nav}>
-                <Link className={classes.link} href="/community">
+                <Link className={classes.link} href="/#">
                   Projects
                 </Link>
-                <Link className={classes.link} href="/docs">
+                <Link className={classes.link} href="/#">
                   Certifications
                 </Link>
-                <Link className={classes.link} href="/blog">
+                <Link className={classes.link} href="/#">
                   Skills
                 </Link>
-                <Link className={classes.link} href="/donate">
+                <Link className={classes.link} href="/#">
                   Experience
                 </Link>
-                <Link className={classes.link} href="/contribute">
+                <Link className={classes.link} href="/#">
                   Blogs
                 </Link>
-                <Link className={classes.link} href="/team">
+                <Link className={classes.link} href="/#">
                   Achievements
                 </Link>
-                <Link className={classes.link} href="/partners">
+                <Link className={classes.link} href="/#">
                   About Me
                 </Link>
               </nav>
@@ -167,27 +167,27 @@ const Header = () => {
                 <Link
                   className={classes.link}
                   onClick={() => setCollapsed(false)}
-                  href="/community"
+                  href="/#"
                 >
                   Projects
                 </Link>
                 <Link
                   className={classes.link}
                   onClick={() => setCollapsed(false)}
-                  href="https://docs.parrotsec.org"
+                  href="#"
                 >
                   Certifications
                 </Link>
-                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/blog">
+                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/#">
                   Skills
                 </Link>
-                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/donate">
+                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/#">
                   Experience
                 </Link>
-                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/team">
+                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/#">
                   Blogs
                 </Link>
-                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/partners">
+                <Link className={classes.link} onClick={() => setCollapsed(false)} href="/#">
                   Achievements
                 </Link>
               </Box>

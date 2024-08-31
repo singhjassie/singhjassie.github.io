@@ -128,7 +128,7 @@ const ToolsSection = (rest: GridProps) => {
               Each project highlights my versatility and commitment to excellence in both security and software development,
               reflecting my dedication to protecting digital environments and building innovative solutions.
             </Typography>
-            <PButton variant="outlined" to="/docs">
+            <PButton variant="outlined" to="#">
               See all Projects ➔ 
             </PButton>
           </Grid>
