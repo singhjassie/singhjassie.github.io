@@ -3,17 +3,17 @@ import { makeStyles } from '@mui/styles'
 import { NextPage } from 'next'
 import dynamic from 'next/dynamic'
 
-import FeaturesSection from 'containers/HomeContainers/FeaturesSection'
-import HackToolsSection from 'containers/HomeContainers/HackToolsSection'
+// import FeaturesSection from 'containers/HomeContainers/FeaturesSection'
+// import HackToolsSection from 'containers/HomeContainers/HackToolsSection'
 import WelcomeSection from 'containers/HomeContainers/WelcomeSection'
 
-const DevelopingSection = dynamic(() => import('containers/HomeContainers/DevelopingSection'))
-const HTBSection = dynamic(() => import('containers/HomeContainers/HTBSection'))
+// const DevelopingSection = dynamic(() => import('containers/HomeContainers/DevelopingSection'))
+// const HTBSection = dynamic(() => import('containers/HomeContainers/HTBSection'))
 const ToolsSection = dynamic(() => import('containers/HomeContainers/ToolsSection'))
-const ContributeSection = dynamic(() => import('containers/HomeContainers/ContributeSection'))
-const OSSection = dynamic(() => import('containers/HomeContainers/OSSection'))
-const TrustSection = dynamic(() => import('containers/HomeContainers/TrustSection'))
-const StatsSection = dynamic(() => import('containers/HomeContainers/StatsSection'))
+// const ContributeSection = dynamic(() => import('containers/HomeContainers/ContributeSection'))
+// const OSSection = dynamic(() => import('containers/HomeContainers/OSSection'))
+// const TrustSection = dynamic(() => import('containers/HomeContainers/TrustSection'))
+// const StatsSection = dynamic(() => import('containers/HomeContainers/StatsSection'))
 /*
 const NewsletterSection = dynamic(() => import('containers/HomeContainers/NewsletterSection'))
 */
